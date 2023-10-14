@@ -75,7 +75,7 @@ export const SKILLS: {
   databases: string[];
   ToolsandIDE: string[];
   APITechnology: string[];
-  // WebDevelopmentTechnologies: string[];
+  WebDevelopmentTechnologies: string[];
   DesignandGraphics: string[];
 } = {
   languages: ["Java"],
@@ -100,7 +100,7 @@ export const SKILLS: {
     "figma",
   ],
   APITechnology: ["mongodb", "tanstack-query"],
-  // WebDevelopmentTechnologies: ["Html", "CSS"],
+  WebDevelopmentTechnologies: ["Html", "Css"],
   DesignandGraphics: ["redux", "react", "nextjs", "tailwindcss"],
 };
 
