@@ -100,7 +100,7 @@ export const SKILLS: {
     "figma",
   ],
   APITechnology: ["mongodb", "tanstack-query"],
-  WebDevelopmentTechnologies: ["Html", "Css"],
+  WebDevelopmentTechnologies: ["Html", "CSS"],
   DesignandGraphics: ["redux", "react", "nextjs", "tailwindcss"],
 };
 
