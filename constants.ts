@@ -46,11 +46,11 @@ export const MENULINKS: { name: string; ref: string }[] = [
 ];
 
 export const TYPED_STRINGS: string[] = [
-  "Java Maestro, Code Artisan",
-  "Spring Boot Sorcerer, Innovation Weaver",
-  "Commercetools Craftsman, Solution Specialist",
-  "Software Virtuoso, Code Alchemist",
-  "Backend Maestro, Innovation Engineer",
+  "Java Developer",
+  "Spring Boot Developer",
+  "Commercetools Developer",
+  "Software Developer",
+  "Backend Developer",
 ];
 
 export const SOCIAL_LINKS: { name: string; url: string }[] = [
@@ -93,7 +93,7 @@ export const SKILLS: {
     "nodejs",
     "moralis",
     "webpack",
-    "Git",
+    "git",
     "python",
     "vite",
     "stripe",

@@ -22,6 +22,7 @@ const Skills = () => {
     "redux": "Design Pattern",
     "nextjs": "Photoshop",
     "tailwindcss": "Graphic Designing",
+    "git" : "Git",
 
     // Add more custom names as needed
   };
