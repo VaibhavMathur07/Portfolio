@@ -23,6 +23,9 @@ const Skills = () => {
     "nextjs": "Photoshop",
     "tailwindcss": "Graphic Designing",
     "git" : "Git",
+    "Html" : "Html",
+    "Css" : "CSS",
+    
 
     // Add more custom names as needed
   };
