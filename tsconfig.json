@@ -28,7 +28,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/About/About1.js", "components/About/About2.js"  ],
+, "components/About/About1.js", "components/About/About2.js", "next.config.js", "components/Header/SoundBar/SoundBar.js"  ],
   "exclude": [
     "node_modules"
   ]

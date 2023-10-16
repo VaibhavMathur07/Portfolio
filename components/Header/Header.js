@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Fade from "react-reveal/Fade";
-import SoundBar from "./SoundBar/SoundBar";
-// import SoundButton from "./SoundButton/SoundButton";
+
+
 
 const Header = ({ children }) => {
   return (
@@ -17,7 +17,7 @@ const Header = ({ children }) => {
             />
           </a>
           <div className="outer-menu relative">
-            <SoundBar />
+            {/* <SoundBar /> */}
             {/* <SoundButton /> */}
             <input
               aria-labelledby="menu"

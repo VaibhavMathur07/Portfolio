@@ -34,7 +34,7 @@ export default function Home() {
     setTimeout(() => {
       setIsLoading(false);
     }, 2600);
-    displayFancyLogs();
+    // displayFancyLogs();
   }, []);
 
   useEffect(() => {
@@ -104,14 +104,14 @@ export default function Home() {
                 value: 15,
                 density: {
                   enable: true,
-                  value_area: 1500,
+                  value_area: 3000,
                 },
               },
               color: {
                 value: "#fff",
               },
               shape: {
-                type: "star",
+                type: "polygon",
                 options: {
                   sides:{
                     value : 5,
@@ -157,7 +157,7 @@ export default function Home() {
               },
               move: {
                 enable: true,
-                speed: 2,
+                speed: 3,
                 direction: "none",
                 random: false,
                 straight: false,
@@ -213,7 +213,7 @@ export default function Home() {
               image: "",
               position: "50% 50%",
               repeat: "no-repeat",
-              size: "cover",
+              size: "contain",
             },
           }}
         />

@@ -195,7 +195,7 @@ const Skills = () => {
               </div>
             </div>
 
-            {/* Web Development Technologies */}
+            {/* Web Development Technologies
             <div className="mt-14 seq">
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">WEB DEVELOPMENT TECHNOLOGY</h3>
               <div className="flex flex-wrap gap-6 transform-gpu">
@@ -211,7 +211,7 @@ const Skills = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Design and Graphics */}
             <div className="mt-14 seq">

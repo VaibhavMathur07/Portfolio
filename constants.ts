@@ -18,7 +18,7 @@ export const METADATA: {
     "Folio",
   ].join(", "),
   image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1690572126/preview.png",
+   "https://res.cloudinary.com/djcadkzcd/image/upload/v1697348779/dqae8uykirjyzlqjtfyj.png",
   language: "English",
 };
 
@@ -75,7 +75,7 @@ export const SKILLS: {
   databases: string[];
   ToolsandIDE: string[];
   APITechnology: string[];
-  WebDevelopmentTechnologies: string[];
+  // WebDevelopmentTechnologies: string[];
   DesignandGraphics: string[];
 } = {
   languages: ["Java"],
@@ -100,7 +100,7 @@ export const SKILLS: {
     "figma",
   ],
   APITechnology: ["mongodb", "tanstack-query"],
-  WebDevelopmentTechnologies: ["Html", "Css"],
+  // WebDevelopmentTechnologies: ["Html", "Css"],
   DesignandGraphics: ["redux", "react", "nextjs", "tailwindcss"],
 };
 
@@ -110,37 +110,37 @@ export const PROJECTS: {
   blurImage: string;
   url: string;
 }[] = [
-  {
-    name: "Commercetools",
-    image: "/projects/project1.png",
-    blurImage: "/projects/project1.png",
-    url: "https://github.com/VaibhavMathur07/CommercetoolsApi-s",
-  },
-  {
-    name: "Hotel User Rating",
-    image: "/projects/project2.png",
-    blurImage: "/projects/project2.png",
-    url: "https://github.com/VaibhavMathur07/Hotel-Rating-User-Microservices",
-  },
-  {
-    name: "Firebase CRUD Operation",
-    image: "/projects/project3.png",
-    blurImage: "/projects/project3.png",
-    url: "https://github.com/VaibhavMathur07/FireBase-Crud-Operations",
-  },
-  {
-    name: "Spring Security CRUD",
-    image: "/projects/project4.png",
-    blurImage: "/projects/project4.png",
-    url: "https://github.com/VaibhavMathur07/SpringSecurityJWT",
-  },
-  {
-    name: "Spring MVC",
-    image: "/projects/project5.png",
-    blurImage: "/projects/project5.png",
-    url: "https://github.com/VaibhavMathur07/Spring-MVC-PLP-PDP",
-  },
-];
+    {
+      name: "Commercetools",
+      image: "/projects/project1.png",
+      blurImage: "/projects/project1.png",
+      url: "https://github.com/VaibhavMathur07/CommercetoolsApi-s",
+    },
+    {
+      name: "Hotel User Rating",
+      image: "/projects/project2.png",
+      blurImage: "/projects/project2.png",
+      url: "https://github.com/VaibhavMathur07/Hotel-Rating-User-Microservices",
+    },
+    {
+      name: "Firebase CRUD Operation",
+      image: "/projects/project3.png",
+      blurImage: "/projects/project3.png",
+      url: "https://github.com/VaibhavMathur07/FireBase-Crud-Operations",
+    },
+    {
+      name: "Spring Security CRUD",
+      image: "/projects/project4.png",
+      blurImage: "/projects/project4.png",
+      url: "https://github.com/VaibhavMathur07/SpringSecurityJWT",
+    },
+    {
+      name: "Spring MVC",
+      image: "/projects/project5.png",
+      blurImage: "/projects/project5.png",
+      url: "https://github.com/VaibhavMathur07/Spring-MVC-PLP-PDP",
+    },
+  ];
 
 export const WORK: {
   id: number;
@@ -152,48 +152,48 @@ export const WORK: {
   url: string;
   video: string;
 }[] = [
-  {
-    id: 1,
-    company: "Dukaan",
-    title: "Frontend Developer",
-    location: "Bangalore, Karnataka",
-    range: "December - Current",
-    responsibilities: [
-      "Led creation of a captivating cross-platform e-commerce solution.",
-      "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
-      "The app boasts a DAU base of 13k and an extensive MAU count of 170k.",
-    ],
-    url: "https://mydukaan.io/",
-    video: "/work/dukaan.mp4",
-  },
-  {
-    id: 2,
-    company: "Aviate",
-    title: "Frontend Developer Intern",
-    location: "Goa",
-    range: "May - October 2022",
-    responsibilities: [
-      "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
-      "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
-      "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
-    ],
-    url: "https://www.aviate.jobs/",
-    video: "/work/aviate.mp4",
-  },
-  {
-    id: 3,
-    company: "Spacenos",
-    title: "Web Developer Intern",
-    location: "Bangalore, Karnataka",
-    range: "September - December 2021",
-    responsibilities: [
-      "Led the Full Stack revamp on the Admin Portal.",
-      "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-      "Implemented CRUD features for all the services and providers.",
-    ],
-    url: "https://spacenos.com/",
-    video: "/work/spacenos.mp4",
-  },
-];
+    {
+      id: 1,
+      company: "Dukaan",
+      title: "Frontend Developer",
+      location: "Bangalore, Karnataka",
+      range: "December - Current",
+      responsibilities: [
+        "Led creation of a captivating cross-platform e-commerce solution.",
+        "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
+        "The app boasts a DAU base of 13k and an extensive MAU count of 170k.",
+      ],
+      url: "https://mydukaan.io/",
+      video: "/work/dukaan.mp4",
+    },
+    {
+      id: 2,
+      company: "Aviate",
+      title: "Frontend Developer Intern",
+      location: "Goa",
+      range: "May - October 2022",
+      responsibilities: [
+        "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
+        "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
+        "Successfully rolled out an error-logging and bug reporting system that cut user-reported bugs by 30%.",
+      ],
+      url: "https://www.aviate.jobs/",
+      video: "/work/aviate.mp4",
+    },
+    {
+      id: 3,
+      company: "Spacenos",
+      title: "Web Developer Intern",
+      location: "Bangalore, Karnataka",
+      range: "September - December 2021",
+      responsibilities: [
+        "Led the Full Stack revamp on the Admin Portal.",
+        "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
+        "Implemented CRUD features for all the services and providers.",
+      ],
+      url: "https://spacenos.com/",
+      video: "/work/spacenos.mp4",
+    },
+  ];
 
 export const GTAG: string = "G-5HCTL2TJ5W";

@@ -4,28 +4,28 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Portfolio | Shubh Porwal",
-  "short_name": "Shubh Porwal",
-  "description": "Shubh Porwal's Portfolio Website.",
+  "name": "Portfolio | Vaibhav Mathur",
+  "short_name": "Vaibhav Mathur",
+  "description": "Vaibhav Mathur's Portfolio Website.",
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "/public/logo1.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-256x256.png",
+      "src": "/public/logo1.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/icon-384x384.png",
+      "src": "/public/logo1.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "/public/logo1.png",
       "sizes": "512x512",
       "type": "image/png"
     }
