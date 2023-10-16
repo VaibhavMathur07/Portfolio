@@ -4,11 +4,9 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Fade } from "react-reveal";
 import { Howl } from "howler";
 import Button from "../Button/Button";
-import { MENULINKS, WORK } from "../../constants";
-
+import { MENULINKS } from "../../constants";
 
 const Work = ({ clientWidth }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
   const [reveal, setReveal] = useState(0);
   const targetSection = useRef(null);
   const inputRef = useRef(null);
@@ -20,20 +18,6 @@ const Work = ({ clientWidth }) => {
   });
 
   const getHeight = (position) => heightRef.current + 53 * position;
-
-  const handleChange = (position) => {
-    const height = getHeight(position);
-
-    setTimeout(() => {
-      checkedSound.play();
-    }, 1500);
-
-    setTimeout(() => {
-      inputRef.current.scrollIntoView({
-        behavior: "smooth",
-      });
-    }, 3000);
-  };
 
   useEffect(() => {
     const revealTl = gsap.timeline({ defaults: { ease: Linear.easeNone } });
@@ -79,15 +63,6 @@ const Work = ({ clientWidth }) => {
       id={MENULINKS[3].ref}
       ref={targetSection}
     >
-        {/* <Image
-          src="/left-pattern.svg"
-          className="absolute top-0 right-0 w-1/12 max-w-xs md:block"
-          alt=""
-          layout="responsive"
-          height={100}
-          width={320}
-        
-        /> */}
       <div className="section-container py-16 flex flex-col justify-center">
         <div className="flex flex-col work-wrapper">
           <div className="flex flex-col">
@@ -125,35 +100,7 @@ const Work = ({ clientWidth }) => {
               </Fade>
             </div>
           </>
-        ) : (
-          <>
-            <div className="flex flex-col items-center">
-              <div className="flex seq">
-                <div className="py-5">
-                  {WORK.map((job, index) => {
-                    const { company } = job;
-                    return (
-                      <div key={company}>
-                        <Button
-                          key={company}
-                          classes={`text-lg mb-4 ${index === activeIndex && "primary__button__active"}`}
-                          href={`#${company.toLowerCase()}`}
-                          type="primary"
-                          onClick={() => {
-                            setActiveIndex(index);
-                            setReveal((prev) => prev + 1);
-                          }}
-                        >
-                          {company}
-                        </Button>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-          </>
-        )}
+        ) : null}
       </div>
     </section>
   );
