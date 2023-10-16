@@ -2,7 +2,6 @@ import Image from "next/image";
 import Fade from "react-reveal/Fade";
 
 
-
 const Header = ({ children }) => {
   return (
     <nav className="w-full fixed top-0 py-8 z-50 select-none bg-gradient-to-b from-gray-dark-5 shadow-gray-dark-5 transition-all duration-300">
@@ -17,8 +16,7 @@ const Header = ({ children }) => {
             />
           </a>
           <div className="outer-menu relative">
-            {/* <SoundBar /> */}
-            {/* <SoundButton /> */}
+            
             <input
               aria-labelledby="menu"
               className="checkbox-toggle link absolute top-0 right-0 w-6 h-6 opacity-0"

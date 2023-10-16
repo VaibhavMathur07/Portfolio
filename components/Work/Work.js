@@ -4,9 +4,8 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Fade } from "react-reveal";
 import { Howl } from "howler";
 import Button from "../Button/Button";
-import styles from "./Work.module.scss";
 import { MENULINKS, WORK } from "../../constants";
-import Image from 'next/image';
+
 
 const Work = ({ clientWidth }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -111,7 +110,7 @@ const Work = ({ clientWidth }) => {
               <Fade spy={reveal} duration={1} delay={0.5}>
                 <Button
                   classes={`text-lg mt-6 primary__button__active`}
-                  url={"../VaibhavMathurResume.pdf"}  // Replace with your actual resume URL
+                  url={"https://drive.google.com/file/d/1OWVbDSKCtPBywEVd2ChyjzTRMrIgH7ED/view?usp=sharing"}  // Replace with your actual resume URL
                   type="primary"
                   onClick={() => {
                     const downloadLink = document.createElement('a');
