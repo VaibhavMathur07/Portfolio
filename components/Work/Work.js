@@ -114,7 +114,7 @@ const Work = ({ clientWidth }) => {
                   type="primary"
                   onClick={() => {
                     const downloadLink = document.createElement('a');
-                    downloadLink.href = 'VaibhavMathurResume.pdf';  // Replace with your actual resume URL
+                    downloadLink.href = 'https://drive.google.com/file/d/1OWVbDSKCtPBywEVd2ChyjzTRMrIgH7ED/view?usp=sharing';  // Replace with your actual resume URL
                     downloadLink.download = 'VaibhavMathurResume.pdf';  // Replace with your desired filename
                     downloadLink.click();
                     // Handle download resume logic
