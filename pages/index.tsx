@@ -17,7 +17,6 @@ import Collaboration from "@/components/Collaboration/Collabaration";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Scripts from "@/components/Scripts/Scripts";
-import { displayFancyLogs } from "utils";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
