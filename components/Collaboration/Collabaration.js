@@ -13,10 +13,10 @@ const Collaboration = ({ clientHeight }) => {
       defaults: { ease: Linear.easeNone },
     });
     timeline
-      .from(quoteRef.current, { opacity: 0, duration: 2 })
+      .from(quoteRef.current, { opacity: 0, duration: 0.3 })
       .to(quoteRef.current.querySelector(".text-strong"), {
         backgroundPositionX: "100%",
-        duration: 1,
+        duration: 0.3,
       });
 
     const slidingTl = gsap.timeline({ defaults: { ease: Linear.easeNone } });
@@ -55,10 +55,10 @@ const Collaboration = ({ clientHeight }) => {
           clientHeight > 650 ? "py-36" : "py-48"
         } section-container flex flex-col`}
       >
-        <p className="opacity-40 text-6xl sm:text-7xl font-semibold whitespace-nowrap ui-left transform-gpu">
+        <p className="opacity-40 text-4xl sm:text-6xl font-semibold whitespace-nowrap ui-left transform-gpu">
           {Array(5)
             .fill(
-              " Passionate coder solving challenges seamlessly "
+              " Passionate coder solving challenges seamlessly. "
             )
             .reduce((str, el) => str.concat(el), "")}{" "}
         </p>
@@ -71,10 +71,10 @@ const Collaboration = ({ clientHeight }) => {
           <span className="text-strong font-semibold">Hire Me ?</span>
         </h1>
 
-        <p className="mt-6 md:mt-8 opacity-40 text-6xl sm:text-7xl font-semibold whitespace-nowrap ui-right transform-gpu">
+        <p className="mt-6 md:mt-8 opacity-40 text-6xl sm:text-6xl font-semibold whitespace-nowrap ui-right transform-gpu">
           {Array(5)
             .fill(
-              " Building tomorrow's software, today "
+              " Building tomorrow's software, today. "
             )
             .reduce((str, el) => str.concat(el), "")}{" "}
         </p>

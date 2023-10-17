@@ -90,6 +90,7 @@ const Work = ({ clientWidth }) => {
                   onClick={() => {
                     const downloadLink = document.createElement('a');
                     downloadLink.href = 'https://drive.google.com/file/d/1OWVbDSKCtPBywEVd2ChyjzTRMrIgH7ED/view?usp=sharing';  // Replace with your actual resume URL
+                    downloadLink.target = '_blank'; 
                     downloadLink.download = 'VaibhavMathurResume.pdf';  // Replace with your desired filename
                     downloadLink.click();
                     // Handle download resume logic
