@@ -114,7 +114,7 @@ export const PROJECTS: {
       name: "Commercetools",
       image: "/projects/project1.png",
       blurImage: "/projects/project1.png",
-      url: "https://github.com/VaibhavMathur07/CommercetoolsApi-s",
+      url: "https://github.com/VaibhavMathur07/Commercetools-Project/blob/master/README.md",
     },
     {
       name: "Hotel User Rating",
