@@ -55,7 +55,7 @@ I love to code while listening to my favorite playlist 🎵, and my spirit anima
 Feel free to explore more about my work and get in touch! 🚀
 
 <div align="center">
-  <img src="https://i.gifer.com/79qS.gif>
+  <img src="https://i.gifer.com/79qS.gif">
 </div>
 
 </br>
