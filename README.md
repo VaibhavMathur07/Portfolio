@@ -8,7 +8,7 @@ Hello there, explorer of the digital realm! Grab a virtual coffee ☕, and let's
 
 ## About Me
 
-🧑🏻‍💻 Greetings! I'm Vaibhav Mathur, a passionate software developer on an unending quest to push the boundaries of creativity, one line of code at a time.
+🧑🏻‍💻 Greetings! I'm Vaibhav Mathur, a passionate software developer and designer on an unending quest to push the boundaries of creativity, one line of code at a time.
 
 
 ## Connect with Me
@@ -21,6 +21,10 @@ Let's ignite innovation together:
 ## Fun Facts
 
 I code to the rhythm of my favorite playlist 🎵, and my spirit animal is a pixel-perfect penguin 🐧.
+
+## Licensing
+
+This portfolio is licensed under the [MIT License](LICENSE).
 
 </br>
 </br>
