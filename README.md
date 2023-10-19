@@ -54,14 +54,10 @@ I love to code while listening to my favorite playlist 🎵, and my spirit anima
 
 Feel free to explore more about my work and get in touch! 🚀
 
-<div align="center">
-  <iframe src="https://gifer.com/embed/79qS" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe>
-</div>
-
 </br>
 </br>
 
 <div align="center">
-  <img src="https://github.com/VaibhavMathur07/Portfolio/blob/main/assets/footer.gif" alt="Footer Image">
+  <img src="https://res.cloudinary.com/djcadkzcd/image/upload/v1697726164/sdhqoioo2pupnqvmltq6.png" alt="Footer Image">
 </div>
 
