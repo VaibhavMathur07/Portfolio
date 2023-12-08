@@ -85,11 +85,11 @@ const Work = ({ clientWidth }) => {
               <Fade spy={reveal} duration={1} delay={0.5}>
                 <Button
                   classes={`text-lg mt-6 primary__button__active`}
-                  url={"https://drive.google.com/file/d/1OWVbDSKCtPBywEVd2ChyjzTRMrIgH7ED/view?usp=sharing"}  // Replace with your actual resume URL
+                  url={"https://drive.google.com/file/d/1LB3qcv_Q6JMIiyemToTFkkc5SV4X4-mJ/view?usp=sharing"}  // Replace with your actual resume URL
                   type="primary"
                   onClick={() => {
                     const downloadLink = document.createElement('a');
-                    downloadLink.href = 'https://drive.google.com/file/d/1OWVbDSKCtPBywEVd2ChyjzTRMrIgH7ED/view?usp=sharing';  // Replace with your actual resume URL
+                    downloadLink.href = 'https://drive.google.com/file/d/1LB3qcv_Q6JMIiyemToTFkkc5SV4X4-mJ/view?usp=sharing';  // Replace with your actual resume URL
                     downloadLink.target = '_blank'; 
                     downloadLink.download = 'VaibhavMathurResume.pdf';  // Replace with your desired filename
                     downloadLink.click();
